@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.pyc
+.DS_Store
+.env
+.venv/
+venv/
+.python-version
+.idea/
+.vscode/
+.gradio/
