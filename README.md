@@ -19,20 +19,29 @@ OPENAI_API_KEY=sk-...
 PUSHOVER_TOKEN=your-pushover-app-token
 PUSHOVER_USER=your-pushover-user-key
 ```
-3) Install dependencies:
+
+Python only
+-----------
+- Install dependencies:
 ```
 pip install -r requirements.txt
 ```
-   or with `uv`:
-```
-uv sync
-```
-
-Run
----
+- Run:
 ```
 python app.py
 ```
+
+Using uv
+--------
+- Install dependencies (creates/uses `.venv` by default):
+```
+uv sync
+```
+- Run:
+```
+uv run app.py
+```
+
 Gradio will print a local URL to open the chat UI.
 
 Notes
